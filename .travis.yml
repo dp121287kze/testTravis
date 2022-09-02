@@ -1,8 +1,4 @@
-os_custom: rqwrqweqweqwe
-jobs:
-script:
-- sleep 10
-- echo 1
-group: dev
-virt: lxd
-language: minimal
+os: linux
+dist: focal
+language: generic
+script: echo “Hello World!”
